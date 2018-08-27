@@ -34,7 +34,7 @@ def main():
     clock = pygame.time.Clock()
     # 音频初始化
     pygame.mixer.init()
-    pygame.mixer.music.load("./feiji/sound/98k.mp3")
+    pygame.mixer.music.load("./feiji/sound/98K.mp3")
     pygame.mixer.music.set_volume(0.5)
     pygame.mixer.music.play(-1)
     # 开始界面,由返回值判定开始游戏/结束游戏
