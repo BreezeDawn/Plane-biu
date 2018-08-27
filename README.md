@@ -3,7 +3,7 @@ The Plane BiuBiu By Python
 
 运行main.py即可
 
--文件名称----------文件作用----------文件详情-
+ 文件名称           文件作用         文件详情
  main.py           主文件           运行文件
  Biu.py            子弹设定         英雄子弹/敌人子弹(小/中/大/Boss子弹)
  CreatEnemy.py     创造设定         创造敌机,创造炸弹,创造Boss,调整游戏难度
