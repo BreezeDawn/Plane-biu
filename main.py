@@ -1,10 +1,6 @@
 """游戏：飞机大战"""
 import os
-
-
 import pygame
-from pygame.locals import *
-
 from Plane import HeroPlane, SuperEnemy
 from CreatEnemy import CreatEnemys
 
@@ -60,6 +56,7 @@ def main():
         pygame.display.update()
         # 帧率控制也在万能类....
         clock.tick(enemys.clock)
+
 
 if __name__ == '__main__':
     main()
